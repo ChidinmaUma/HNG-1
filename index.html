@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div class="maindiv">
+         <div class="tit">
+         <p>WELCOME TO MY WEBPAPGE @Dinmz<p>
+
+        </div>
+
+ 
+
+        <div id="slackcont">
+
+         <div id="profilepixcont">
+               <img id="profile-pix" data-testid="SlackProfilePix" src="imagemain/dinmzpix.jpg" alt="SlackProfilePix" width="auto" height="auto">
+           </div>
+
+   
+          <div class="testidz">
+             <div id="slackmailcont"  data-testid="Slack-Email">loading...
+                  <!-- Email: Chidinmauma20@gmail.com -->
+             </div>
+
+              <div id="slacknamecont" data-testid="Slack-Name">loading...
+                   <!-- Slack-Name: Dinmz -->
+               </div>
+
+             <div id="timecont" data-testid="currentTimeUTC">Loading...</div>
+
+             <div id="currentday" data-testid="current-day">Loading...</div>
+
+        
+            </div>
+     
+
+        </div>
+
+     <div>
+         <div>
+             <p class="intro1"><strong>I am Chidinma Uma. My Slack Name is @Dinmz.</strong><br> I'm a tech enthusiast specializing in full-stack web development, passionate about creating  seamless user experiences through innovative frontend designs and robust backend solutions.</p>
+         </div> 
+         <div>
+             <h2 id="doc"><strong>Documentary Introduction:  Journey into Tech-From General Manager to Becoming Full Stack Developer.</strong></h2>
+         </div> 
+          <div>
+             
+
+             <p class="intro2">
+             In the ever-evolving landscape of technology, transitions and transformations are not uncommon. This documentary delves into my personal journey as a  General Manager who embarked on a path to become a Full Stack Developer, navigating challenges, learning curves, and the exhilarating discovery of new skills in the world of web development.</p>
+         </div>
+         <div class="list">
+             
+               <ul>
+                  <li>
+                     Motivated by a desire for new challenges and the realization of the growing importance of digital skills, the decision to switch careers was not taken lightly. It involved introspection, research, and a leap of faith into the unknown.
+                  </li>
+                  <li>
+                      Embracing learning
+                     with determination as the driving force, the journey into tech commenced with foundational learning. Courses on HTML, CSS, and JavaScript provided the initial framework, offering insights into the building blocks of web development. The transition from managerial tasks to coding challenges required a shift in mindset from overseeing teams to debugging code and crafting user interfaces.
+                  </li>
+                 
+                  <li>
+                      Integral to the journey was engagement with the tech community. Forums, meetups, and conferences provided opportunities for networking, knowledge exchange, and continuous learning. Collaboration with peers and experts enriched skills and perspectives, fostering growth in both technical proficiency and professional development.
+                    </li>
+              </ul>
+
+            </div>
+
+     
+
+         <div>
+             <h1><strong class="con">CONCLUSION:</strong><br></h1>
+              <p class="intro3">
+               In conclusion, the journey from General Manager to Full Stack Developer epitomizes the spirit of adaptation and growth in tech. It underscores the importance of embracing change, continuous learning, and the limitless potential within the world of technology. As the landscape evolves, so too does the journey a testament to the resilience, determination, and transformative power of pursuing one's passion in the digital era.</p>
+         </div>
+
+      </div>
+    
+     
+     <div class="objcont">
+         <div>
+             <h1 class="title">MY OBJECTIVE:</h1><br>
+                 <p class="objsec">In the next two years as a web developer, I aim to master advanced JavaScript frameworks like React and Node.js, become proficient in building scalable and secure web applications, contribute to open-source projects, gain practical experience with cloud platforms like AWS, and establish a strong portfolio showcasing my skills in frontend and backend development.</p>
+          </div>
+           
+        
+         <div class="obj1">
+             <p> In my reflections and future aspirations, the evolution continues, driven by curiosity, innovation, and a passion for creating impactful solutions in the digital age. The future holds endless possibilities new technologies to explore, projects to build, and contributions to make in shaping the tech industry.</p>
+         </div>
+      </div>
+
+ 
+
+      <div id="linkcont">
+
+     <div data-testid="hngLink">
+     <a href="http://hng.tech/learn">hngLink</a>
+     </div>
+
+      <div data-testid="keyword.dog">
+      <a href="http://keyword.dog">keyword.dog</a>
+     </div>
+
+      <div data-testid="scrapeanyweb.site">
+      <a href="http://scrapeanyweb.site/">scrapeanywebLink</a></div>
+
+     <div data-testid="bloglink">
+     <a href="https://dinmzdev.hashnode.dev/comparing-reactjs-and-vuejs">bloglink</a>
+     </div>
+
+
+     </div>
+
+
+      <div data-testid="current-day"></div>
+
+      <script>
+  
+     const currentDate = new Date();
+      const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+      const currentDayIndex = currentDate.getDay();
+      const currentDayName = daysOfWeek[currentDayIndex];
+      const currentDayDiv = document.querySelector('[data-testid="current-day"]');
+     if (currentDayDiv) {
+      currentDayDiv.textContent = currentDayName;
+     }
+      </script>
+
+    
+     
+    </div>
+    <script></script>
+</body>
+</html>
+
